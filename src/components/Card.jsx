@@ -2,7 +2,7 @@ const Card = (props) => {
   const renderPropertyTitle = (property) => {
     if (property) {
       return (
-        <h2 className="card-title text-3xl text-primary  justify-center">
+        <h2 className="card-title text-3xl text-secondary justify-center ">
           {property}
         </h2>
       );
@@ -13,7 +13,7 @@ const Card = (props) => {
   const renderPropertySubTitle = (property) => {
     if (property) {
       return (
-        <h3 className="card-title text-2xl text-secondary justify-center">
+        <h3 className="card-title text-xl text-secondary justify-center text-center p-4">
           {property}
         </h3>
       );
@@ -31,7 +31,7 @@ const Card = (props) => {
   const renderCodeBlock = (code) => {
     if (code) {
       return (
-        <div className="mockup-code">
+        <div className="mockup-code min-width-[14rem]">
           <pre>
             <code>{code}</code>
           </pre>
@@ -44,17 +44,17 @@ const Card = (props) => {
   return (
     <article
       id={props.link}
-      className="card mx-4  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700"
+      className="card max-w-[95vw] mx-auto  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700"
     >
-      <div className="card-body p-2 rounded-xl">
+      <div className="card-body p-4 rounded-xl">
         {renderPropertyTitle(props.title)}
         {renderPropertyParagraph(props.intro)}
         {renderPropertyParagraph(props.moreIntro)}
         {renderCodeBlock(props.codeA)}
         {renderCodeBlock(props.codeB)}
         {renderCodeBlock(props.codeC)}
-        <div className="p-2 shadow-xl shadow-blue-500 rounded-xl border-t-2  border-blue-700 mt-4">
-          <div className="rounded-xl flex flex-col gap-2">
+        <div className="">
+          <div className="flex flex-col gap-2  ">
             {renderPropertySubTitle(props.subtitle)}
             {renderPropertyParagraph(props.subIntro)}
             {renderPropertyParagraph(props.moreSubIntro)}
