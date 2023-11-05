@@ -42,7 +42,10 @@ const Card = (props) => {
   };
 
   return (
-    <article className="card mx-4  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700">
+    <article
+      id={props.link}
+      className="card mx-4  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700"
+    >
       <div className="card-body p-2 rounded-xl">
         {renderPropertyTitle(props.title)}
         {renderPropertyParagraph(props.intro)}

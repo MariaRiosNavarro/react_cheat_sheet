@@ -1,0 +1,15 @@
+export const reactArrayNavigation = [
+  "Basics",
+  "Props",
+  "Nesting",
+  "Setup",
+  "State",
+  "Arrays",
+  "useEffect & Fetch",
+  "Local Storage",
+  "Custom Hooks",
+  "Global State",
+  "Inmutable State",
+  "Data Fetching",
+  "Testing",
+];
