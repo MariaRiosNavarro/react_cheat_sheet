@@ -69,6 +69,34 @@ const Card = (props) => {
             {renderCodeBlock(props.codeTextBA)}
             {renderCodeBlock(props.codeTextBB)}
             {renderCodeBlock(props.codeTextBC)}
+            {renderPropertySubTitle(props.subtitle_A)}
+            {renderPropertyParagraph(props.subIntro_A)}
+            {renderPropertyParagraph(props.moreSubIntro_A)}
+            {renderCodeBlock(props.codeSubA_A)}
+            {renderCodeBlock(props.codeSubB_A)}
+            {renderCodeBlock(props.codeSubC_A)}
+            {renderPropertyParagraph(props.textA_A)}
+            {renderCodeBlock(props.codeTextAA_A)}
+            {renderCodeBlock(props.codeTextAB_A)}
+            {renderCodeBlock(props.codeTextAC_A)}
+            {renderPropertyParagraph(props.textB)}
+            {renderCodeBlock(props.codeTextBA_A)}
+            {renderCodeBlock(props.codeTextBB_A)}
+            {renderCodeBlock(props.codeTextBC_A)}
+            {renderPropertySubTitle(props.subtitle_B)}
+            {renderPropertyParagraph(props.subIntro_B)}
+            {renderPropertyParagraph(props.moreSubIntro_B)}
+            {renderCodeBlock(props.codeSubA_B)}
+            {renderCodeBlock(props.codeSubB_B)}
+            {renderCodeBlock(props.codeSubC_B)}
+            {renderPropertyParagraph(props.textA_B)}
+            {renderCodeBlock(props.codeTextAA_B)}
+            {renderCodeBlock(props.codeTextAB_B)}
+            {renderCodeBlock(props.codeTextAC_B)}
+            {renderPropertyParagraph(props.textB_B)}
+            {renderCodeBlock(props.codeTextBA_B)}
+            {renderCodeBlock(props.codeTextBB_B)}
+            {renderCodeBlock(props.codeTextBC_B)}
           </div>
         </div>
       </div>

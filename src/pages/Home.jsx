@@ -2,7 +2,6 @@ import Card from "../components/Card";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import { reactArray } from "../db/reactArray";
-import { Routes } from "react-router-dom";
 
 const Home = () => {
   return (

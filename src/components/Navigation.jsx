@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { reactArray } from "../db/reactArray";
 
 const Navigation = () => {
