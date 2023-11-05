@@ -10,7 +10,7 @@ export const reactArray = [
     codeA: "const element = <p>Some Text</p>;",
     codeB: "",
     codeC: "",
-    subtitle: "Creating Element and Components",
+    subtitle: "Creating Elements and Components",
     subIntro:
       "Just like in HTML, JSX elements are described using opening and closing tags.The closing tag contains the same tag name or the same component type as the opening tag does and nothing else. The children of the element are placed between the opening and closing tag. If the element has no children, the closing tag can be omitted and the element is self-closing.",
     moreSubIntro: "",
@@ -22,31 +22,46 @@ export const reactArray = [
     codeTextAA: "",
     codeTextAB: "",
     codeTextAC: "",
-    textB: "",
-    codeTextBA: "",
+    textB:
+      "To create an element from a component, we can simply refer to it by the function name in JSX and treat it just like any built-in component:",
+    codeTextBA: "const element = <MyComponent />;",
     codeTextBB: "",
     codeTextBC: "",
-    subtitle_A: "",
-    subIntro_A: "",
-    moreSubIntro_A: "",
-    codeSubA_A: "",
-    codeSubB_A: "",
-    codeSubC_A: "",
-    textA_A: "",
-    codeTextAA_A: "",
+    subtitle_A: "Attributes",
+    subIntro_A:
+      "Attributes for built-in HTML elements use JavaScript-centric names from the DOM API. In most cases the names are the same as in HTML, but there are some exceptions. For example, the class attribute from HTML is called className in JSX.",
+    moreSubIntro_A:
+      "Passing string values to attributes is done by using double quotes. To pass any JavaScript expression use curly braces.",
+    codeSubA_A: 'const element = <p className="text">Some Text</p>;',
+    codeSubB_A: 'const myValue = "This is a string";',
+    codeSubC_A:
+      'const input = <input type="text" value={myValue} minLength={5} />;',
+    textA_A:
+      "React elements can be nested the same way we have been nesting our HTML elements",
+    codeTextAA_A:
+      "const element = (<div><p>Some Text<p><p>Some more Text</p></div>)",
+
     codeTextAB_A: "",
     codeTextAC_A: "",
-    textB_A: "",
-    codeTextBA_A: "",
-    codeTextBB_A: "",
-    codeTextBC_A: "",
-    subtitle_B: "",
-    subIntro_B: "",
-    moreSubIntro_B: "",
-    codeSubA_B: "",
+    textB_A:
+      "Interpolating Expressions: We can use any JavaScript expression inside JSX by wrapping it in curly braces. This is called interpolation. It is similar to string interpolation in JavaScript template strings.",
+    codeTextBA_A:
+      "const name = 'Pawtricia'; const element = <p>My cat's name is {name}</p>;",
+    codeTextBB_A:
+      "const a = 5; const b = 10; const element = (<p> {a} + {b} = {a + b} </p>);",
+    codeTextBC_A: "React Components",
+    subtitle_B:
+      "React applications are built using components. A component is an independent and reusable piece of the user interface that contains its own structure, logic, and potentially styling.",
+    subIntro_B:
+      "React components are JavaScript functions that return React elements. Those elements are then turned into DOM elements by React during the rendering process.",
+    moreSubIntro_B:
+      "In order to create a React component, we write a named function (using PascalCase) and have it return the desired elements using JSX.",
+    codeSubA_B:
+      'function MyButton() {   return (<button type="button" className="default-button"> I am a button </button>);}',
     codeSubB_B: "",
     codeSubC_B: "",
-    textA_B: "",
+    textA_B:
+      "This is a very powerful concept, because it allows us to reuse the same component in multiple places in our application.",
     codeTextAA_B: "",
     codeTextAB_B: "",
     codeTextAC_B: "",

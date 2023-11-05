@@ -79,7 +79,7 @@ const Card = (props) => {
             {renderCodeBlock(props.codeTextAA_A)}
             {renderCodeBlock(props.codeTextAB_A)}
             {renderCodeBlock(props.codeTextAC_A)}
-            {renderPropertyParagraph(props.textB)}
+            {renderPropertyParagraph(props.textB_A)}
             {renderCodeBlock(props.codeTextBA_A)}
             {renderCodeBlock(props.codeTextBB_A)}
             {renderCodeBlock(props.codeTextBC_A)}
