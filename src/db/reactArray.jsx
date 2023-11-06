@@ -1437,8 +1437,8 @@ export const reactArray = [
   },
   {
     _id: 5,
-    link: "state",
-    title: "State",
+    link: "arrays",
+    title: "Arrays",
     intro: "testIntro",
     moreIntro: "testmoreIntro",
     codeA: "testCodeA",
@@ -1789,8 +1789,8 @@ export const reactArray = [
   },
   {
     _id: 6,
-    link: "arrays",
-    title: "Arrays",
+    link: "state",
+    title: "State",
     intro: "testIntro",
     moreIntro: "testmoreIntro",
     codeA: "testCodeA",
