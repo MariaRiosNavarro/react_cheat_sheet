@@ -116,9 +116,45 @@ const Card = (props) => {
         {renderPropertyTitle(props.title)}
         {renderPropertyParagraph(props.intro)}
         {renderPropertyParagraph(props.moreIntro)}
-        {renderCodeBlock(props.codeA)}
-        {renderCodeBlock(props.codeB)}
-        {renderCodeBlock(props.codeC)}
+        {renderCodeBlock(
+          props.codeA,
+          props.codeA_extra_code1,
+          props.codeA_extra_code2,
+          props.codeA_extra_code3,
+          props.codeA_extra_code4,
+          props.codeA_extra_code5,
+          props.codeA_extra_code6,
+          props.codeA_extra_code7,
+          props.codeA_extra_code8,
+          props.codeA_extra_code9,
+          props.codeA_extra_code10
+        )}
+        {renderCodeBlock(
+          props.codeB,
+          props.codeB_extra_code1,
+          props.codeB_extra_code2,
+          props.codeB_extra_code3,
+          props.codeB_extra_code4,
+          props.codeB_extra_code5,
+          props.codeB_extra_code6,
+          props.codeB_extra_code7,
+          props.codeB_extra_code8,
+          props.codeB_extra_code9,
+          props.codeB_extra_code10
+        )}
+        {renderCodeBlock(
+          props.codeC,
+          props.codeC_extra_code1,
+          props.codeC_extra_code2,
+          props.codeC_extra_code3,
+          props.codeC_extra_code4,
+          props.codeC_extra_code5,
+          props.codeC_extra_code6,
+          props.codeC_extra_code7,
+          props.codeC_extra_code8,
+          props.codeC_extra_code9,
+          props.codeC_extra_code10
+        )}
         <div className="">
           <div className="flex flex-col gap-2  ">
             {renderPropertySubTitle(props.subtitle)}
