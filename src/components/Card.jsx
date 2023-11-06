@@ -112,7 +112,12 @@ const Card = (props) => {
   const externalLinks = (propierty) => {
     if (propierty) {
       return (
-        <Link className="text-success" to={propierty[1]}>
+        <Link
+          className="text-primary"
+          to={propierty[1]}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {propierty[0]}
         </Link>
       );
