@@ -173,9 +173,8 @@ export const reactArray = [
     codeTextAC_Aextra_code10: "",
     textB_A:
       "Interpolating Expressions: We can use any JavaScript expression inside JSX by wrapping it in curly braces. This is called interpolation. It is similar to string interpolation in JavaScript template strings.",
-    codeTextBA_A:
-      "const name = 'Pawtricia'; const element = <p>My cat's name is {name}</p>;",
-    codeTextBA_A_extra_code1: "",
+    codeTextBA_A: "const name = 'Patricia';",
+    codeTextBA_A_extra_code1: "const element = <p>My cat's name is {name}</p>;",
     codeTextBA_A_extra_code2: "",
     codeTextBA_A_extra_code3: "",
     codeTextBA_A_extra_code4: "",
@@ -185,11 +184,10 @@ export const reactArray = [
     codeTextBA_A_extra_code8: "",
     codeTextBA_A_extra_code9: "",
     codeTextBA_A_extra_code10: "",
-    codeTextBB_A:
-      "const a = 5; const b = 10; const element = (<p> {a} + {b} = {a + b} </p>);",
-    codeTextBB_A_extra_code1: "",
+    codeTextBB_A: "const a = 5; ",
+    codeTextBB_A_extra_code1: "const b = 10;",
     codeTextBB_A_extra_code2: "",
-    codeTextBB_A_extra_code3: "",
+    codeTextBB_A_extra_code3: "const element = (<p> {a} + {b} = {a + b} </p>);",
     codeTextBB_A_extra_code4: "",
     codeTextBB_A_extra_code5: "",
     codeTextBB_A_extra_code6: "",
@@ -213,15 +211,15 @@ export const reactArray = [
       "React applications are built using components. A component is an independent and reusable piece of the user interface that contains its own structure, logic, and potentially styling. React components are JavaScript functions that return React elements. Those elements are then turned into DOM elements by React during the rendering process.",
     moreSubIntro_B:
       "In order to create a React component, we write a named function (using PascalCase) and have it return the desired elements using JSX.",
-    codeSubA_B:
-      'function MyButton() {   return (<button type="button" className="default-button"> I am a button </button>);}',
-    codeSubA_B_extra_code1: "",
+    codeSubA_B: "function MyButton() { ",
+    codeSubA_B_extra_code1: "  return (",
     codeSubA_B_extra_code2: "",
-    codeSubA_B_extra_code3: "",
+    codeSubA_B_extra_code3:
+      '    <button type="button" className="default-button"> I am a button </button>',
     codeSubA_B_extra_code4: "",
-    codeSubA_B_extra_code5: "",
+    codeSubA_B_extra_code5: "  );",
     codeSubA_B_extra_code6: "",
-    codeSubA_B_extra_code7: "",
+    codeSubA_B_extra_code7: "}",
     codeSubA_B_extra_code8: "",
     codeSubA_B_extra_code9: "",
     codeSubA_B_extra_code10: "",

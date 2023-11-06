@@ -2,7 +2,7 @@ const Card = (props) => {
   const renderPropertyTitle = (property) => {
     if (property) {
       return (
-        <h2 className="card-title text-3xl text-secondary justify-center ">
+        <h2 className="card-title text-3xl text-secondary justify-center p-4 ">
           {property}
         </h2>
       );
@@ -43,7 +43,7 @@ const Card = (props) => {
   ) => {
     if (code) {
       return (
-        <div className="mockup-code min-width-[14rem]">
+        <div className="mockup-code min-width-[14rem] my-4">
           <pre>
             <code>{code}</code>
           </pre>
@@ -110,7 +110,7 @@ const Card = (props) => {
   return (
     <article
       id={props.link}
-      className="flex flex-col max-w-[95vw] mx-auto  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700 md:max-w-[45vw]"
+      className="flex flex-col max-w-[95vw] mx-auto  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700 md:max-w-[45vw] rounded-xl"
     >
       <div className="flex flex-col justify-start p-4 rounded-xl">
         {renderPropertyTitle(props.title)}
