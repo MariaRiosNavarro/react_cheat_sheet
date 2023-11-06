@@ -2141,7 +2141,7 @@ export const reactArray = [
   {
     _id: 7,
     link: "state2",
-    title: "State2",
+    title: "State, Components & Forms",
     intro: "testIntro",
     moreIntro: "testmoreIntro",
     codeA: "testCodeA",
@@ -2493,7 +2493,7 @@ export const reactArray = [
   {
     _id: 8,
     link: "state3",
-    title: "State3",
+    title: "State & Data",
     intro: "testIntro",
     moreIntro: "testmoreIntro",
     codeA: "testCodeA",

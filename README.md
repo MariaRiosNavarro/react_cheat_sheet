@@ -1,8 +1,11 @@
-# React + Vite
+# React Cheat Sheet (React + Vite + Tailwind & daisyUI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Still in process and not finished
 
-Currently, two official plugins are available:
+# Desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div><img src="./public/img/readme1.png" alt="" width="400px"/></div>
+
+# Mobile
+
+<div><img src="./public/img/readme2.png" alt="" width="400px"/></div>
