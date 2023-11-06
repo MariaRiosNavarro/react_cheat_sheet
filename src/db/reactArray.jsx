@@ -680,8 +680,8 @@ export const reactArray = [
       "https://react.dev/learn/passing-props-to-a-component",
     ],
     externalLinksB: [
-      "Passing Props to a Component",
-      "https://react.dev/learn/passing-props-to-a-component",
+      "Conditional Rendering",
+      "https://react.dev/learn/conditional-rendering",
     ],
     externalLinksC: ["", ""],
     externalLinksD: ["", ""],
