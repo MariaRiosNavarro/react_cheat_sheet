@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = (props) => {
   const renderPropertyTitle = (property) => {
     if (property) {
@@ -102,6 +104,17 @@ const Card = (props) => {
         <pre>
           <code className="text-error">{code}</code>
         </pre>
+      );
+    }
+    return null;
+  };
+
+  const externalLinks = (propierty) => {
+    if (propierty) {
+      return (
+        <Link className="text-success" to={propierty[1]}>
+          {propierty[0]}
+        </Link>
       );
     }
     return null;
@@ -523,6 +536,10 @@ const Card = (props) => {
               props.codeTextBC_B_extra_code9,
               props.codeTextBC_B_extra_code10
             )}
+            {externalLinks(props.externalLinksA)}
+            {externalLinks(props.externalLinksB)}
+            {externalLinks(props.externalLinksC)}
+            {externalLinks(props.externalLinksD)}
           </div>
         </div>
       </div>
