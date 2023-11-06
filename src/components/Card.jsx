@@ -55,8 +55,8 @@ const Card = (props) => {
           {renderExtraCodeLinesEven(code6)}
           {renderExtraCodeLinesOdd(code7)}
           {renderExtraCodeLinesEven(code8)}
-          {renderExtraCodeLinesOdd(code9)}
-          {renderExtraCodeLinesEven(code10)}
+          {renderExtraCodeLinesGreen(code9)}
+          {renderExtraCodeLinesRed(code10)}
         </div>
       );
     }
@@ -79,6 +79,28 @@ const Card = (props) => {
       return (
         <pre>
           <code className="text-accent">{code}</code>
+        </pre>
+      );
+    }
+    return null;
+  };
+
+  const renderExtraCodeLinesGreen = (code) => {
+    if (code) {
+      return (
+        <pre>
+          <code className="text-success">{code}</code>
+        </pre>
+      );
+    }
+    return null;
+  };
+
+  const renderExtraCodeLinesRed = (code) => {
+    if (code) {
+      return (
+        <pre>
+          <code className="text-error">{code}</code>
         </pre>
       );
     }
