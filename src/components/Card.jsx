@@ -91,7 +91,7 @@ const Card = (props) => {
     if (code) {
       return (
         <pre>
-          <code className="text-success">{code}</code>
+          <code>{code}</code>
         </pre>
       );
     }
@@ -102,7 +102,7 @@ const Card = (props) => {
     if (code) {
       return (
         <pre>
-          <code className="text-error">{code}</code>
+          <code>{code}</code>
         </pre>
       );
     }
@@ -113,7 +113,7 @@ const Card = (props) => {
     if (propierty) {
       return (
         <Link
-          className="text-primary"
+          className="text-primary font-bold"
           to={propierty[1]}
           target="_blank"
           rel="noopener noreferrer"
