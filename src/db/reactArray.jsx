@@ -197,7 +197,7 @@ export const reactArray = [
     codeTextBB_A_extra_code8: "",
     codeTextBB_A_extra_code9: "",
     codeTextBB_A_extra_code10: "",
-    codeTextBC_A: "React Components",
+    codeTextBC_A: "",
     codeTextBC_A_extra_code1: "",
     codeTextBC_A_extra_code2: "",
     codeTextBC_A_extra_code3: "",
@@ -208,10 +208,9 @@ export const reactArray = [
     codeTextBC_A_extra_code8: "",
     codeTextBC_A_extra_code9: "",
     codeTextBC_A_extra_code10: "",
-    subtitle_B:
-      "React applications are built using components. A component is an independent and reusable piece of the user interface that contains its own structure, logic, and potentially styling.",
+    subtitle_B: "React Components",
     subIntro_B:
-      "React components are JavaScript functions that return React elements. Those elements are then turned into DOM elements by React during the rendering process.",
+      "React applications are built using components. A component is an independent and reusable piece of the user interface that contains its own structure, logic, and potentially styling. React components are JavaScript functions that return React elements. Those elements are then turned into DOM elements by React during the rendering process.",
     moreSubIntro_B:
       "In order to create a React component, we write a named function (using PascalCase) and have it return the desired elements using JSX.",
     codeSubA_B:

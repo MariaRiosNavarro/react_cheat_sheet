@@ -110,9 +110,9 @@ const Card = (props) => {
   return (
     <article
       id={props.link}
-      className="card max-w-[95vw] mx-auto  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700"
+      className="flex flex-col max-w-[95vw] mx-auto  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700 md:max-w-[45vw]"
     >
-      <div className="card-body p-4 rounded-xl">
+      <div className="flex flex-col justify-start p-4 rounded-xl">
         {renderPropertyTitle(props.title)}
         {renderPropertyParagraph(props.intro)}
         {renderPropertyParagraph(props.moreIntro)}
