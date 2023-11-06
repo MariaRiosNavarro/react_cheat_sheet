@@ -47,27 +47,38 @@ const Card = (props) => {
           <pre>
             <code>{code}</code>
           </pre>
-          {renderExtraCodeLines(code1)}
-          {renderExtraCodeLines(code2)}
-          {renderExtraCodeLines(code3)}
-          {renderExtraCodeLines(code4)}
-          {renderExtraCodeLines(code5)}
-          {renderExtraCodeLines(code6)}
-          {renderExtraCodeLines(code7)}
-          {renderExtraCodeLines(code8)}
-          {renderExtraCodeLines(code9)}
-          {renderExtraCodeLines(code10)}
+          {renderExtraCodeLinesOdd(code1)}
+          {renderExtraCodeLinesEven(code2)}
+          {renderExtraCodeLinesOdd(code3)}
+          {renderExtraCodeLinesEven(code4)}
+          {renderExtraCodeLinesOdd(code5)}
+          {renderExtraCodeLinesEven(code6)}
+          {renderExtraCodeLinesOdd(code7)}
+          {renderExtraCodeLinesEven(code8)}
+          {renderExtraCodeLinesOdd(code9)}
+          {renderExtraCodeLinesEven(code10)}
         </div>
       );
     }
     return null;
   };
 
-  const renderExtraCodeLines = (code) => {
+  const renderExtraCodeLinesOdd = (code) => {
     if (code) {
       return (
         <pre>
           <code>{code}</code>
+        </pre>
+      );
+    }
+    return null;
+  };
+
+  const renderExtraCodeLinesEven = (code) => {
+    if (code) {
+      return (
+        <pre>
+          <code className="text-accent">{code}</code>
         </pre>
       );
     }
