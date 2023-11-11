@@ -34,7 +34,7 @@ const ScrollTo = ({ top }) => {
         } opacity-30 text-2xl w-12 h-12 rounded-full text-center cursor-pointer hover:opacity-100 bg-secondary border-4 border-primary btn-secondary flex items-center justify-center z-10`}
         onClick={handleScroll}
       >
-        {top ? "⬆" : "⬇"}
+        {top ? "↑" : "↓"}
       </label>
     </div>
   );
