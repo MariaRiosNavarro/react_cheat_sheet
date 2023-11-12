@@ -1608,9 +1608,8 @@ export const reactArray = [
     subIntro:
       'To handle state in React we can not simply use a "normal" variable and assign a new value. React needs to be informed that the data was changed. Calling the set function with a new value informs React, that state has changed. Changing a state triggers a re-render of the component',
     moreSubIntro:
-      "React only changes the DOM nodes if there’s a difference between renders",
-    codeSubA:
-      "Any screen update in a React app happens in three steps: Trigger, Render, Commit.React does not touch the DOM if the rendering result is the same as last time",
+      "React only changes the DOM nodes if there’s a difference between renders.Any screen update in a React app happens in three steps: Trigger, Render, Commit.React does not touch the DOM if the rendering result is the same as last time",
+    codeSubA: "",
     codeSubA_extra_code1: "",
     codeSubA_extra_code2: "",
     codeSubA_extra_code3: "",
@@ -1753,7 +1752,7 @@ export const reactArray = [
     codeSubC_A_extra_code9: "",
     codeSubC_A_extra_code10: "",
     textA_A:
-      "State: a component’s memory:Components need to “remember” things: the current input value, the current image, the shopping cart. In React, this kind of component-specific memory is called state.",
+      "State: a component’s memory: Components need to “remember” things , the current input value, the current image, the shopping cart. In React, this kind of component-specific memory is called state.",
     codeTextAA_A: "",
     codeTextAA_A_extra_code1: "",
     codeTextAA_A_extra_code2: "",
@@ -1825,7 +1824,7 @@ export const reactArray = [
     subIntro_B:
       "State can hold any kind of JavaScript value, including objects. But you shouldn’t change objects and arrays that you hold in the React state directly. ",
     moreSubIntro_B:
-      "Instead, when you want to update an object and array, you need to create a new one (or make a copy of an existing one), and then update the state to use that copy.Usually, you will use the ... spread syntax to copy objects and arrays that you want to change. For example, updating a nested object could look like this",
+      "Instead, when you want to update an object and array, you need to create a new one (or make a copy of an existing one), and then update the state to use that copy. Usually, you will use the ... spread syntax to copy objects and arrays that you want to change. For example, updating a nested object could look like this",
     codeSubA_B: "import { useState } from 'react';",
     codeSubA_B_extra_code1: " ",
     codeSubA_B_extra_code3: "export default function Form() {",
