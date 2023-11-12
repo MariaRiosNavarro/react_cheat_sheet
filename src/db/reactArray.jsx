@@ -2448,15 +2448,19 @@ export const reactArray = [
   {
     _id: 7,
     link: "state3",
-    title: "State & Data",
-    intro: "testIntro",
-    moreIntro: "testmoreIntro",
-    codeA: "testCodeA",
+    title: "Avoiding State Mutation",
+    intro:
+      "Regardless of how complex the state you have in your application (object, array, array of objects) is, you must always treat state as immutable. This means that you should not directly mutate the state, e.g. with reassigning a new value to it.",
+    moreIntro:
+      "To avoid mutation when updating state, you need to: create a new object / array (or make a copy of the existing one), and use the setter function with the recently created / updated copy in order to cause a re-render. Updating Objects in State:",
+    codeA:
+      'const [person, setPerson] = useState({firstName: "John",lastName: "Doe", });',
     codeA_extra_code1: "",
     codeA_extra_code2: "",
-    codeA_extra_code3: "",
-    codeA_extra_code4: "",
-    codeA_extra_code5: "",
+    codeA_extra_code3:
+      "function handleChangeFirstName(firstName) { setPerson({ ...person, firstName }); }",
+    codeA_extra_code4: "// Somewhere else:",
+    codeA_extra_code5: 'handleChangeFirstName("Jane");',
     codeA_extra_code6: "",
     codeA_extra_code7: "",
     codeA_extra_code8: "",
