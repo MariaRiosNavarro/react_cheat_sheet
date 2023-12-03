@@ -146,6 +146,8 @@
 
 // export default Navigation;
 
+// !!! MAster
+
 import React, { useEffect, useState } from "react";
 import { reactArray } from "../db/reactArray";
 
@@ -176,17 +178,17 @@ const Navigation = () => {
 
   return (
     <nav
-      className={`flex justify-center items-center p-4 flex-wrap gap-2 ${
+      className={`flex flex-col justify-center items-center p-2 flex-wrap gap-1 ${
         scrolling
-          ? "fixed top-[-0.5rem] right-0 left-0 h-[auto] p-0  bg-secondary z-50 pb-0.5"
+          ? "fixed top-[-0.5rem] right-0 left-0 h-[auto] p-0  bg-secondary gap-2 z-50 pb-0.5"
           : ""
       }`}
     >
       {/* Botón de hamburguesa para pantallas pequeñas */}
-      <div className="md:hidden">
+      <div>
         <button
           onClick={toggleMenu}
-          className={`px-2 py-1 text-xl bg-secondary text-white rounded ${
+          className={`px-2 pb-1 m-0 text-xl bg-secondary text-gray-200 rounded ${
             scrolling ? "pt-2 pb-0 m-0" : ""
           }`}
         >
@@ -195,17 +197,13 @@ const Navigation = () => {
       </div>
 
       {/* Enlaces de navegación */}
-      <div
-        className={`md:flex ${
-          menuOpen ? "block" : "hidden"
-        } md:items-center md:w-auto w-full`}
-      >
+      <div className={` ${menuOpen ? "block pb-4" : "hidden"} `}>
         {reactArray.map((item) => (
           <a
             key={item._id}
             href={`#${item.link}`}
-            className={`block mt-4 md:inline-block md:mt-0 px-4 py-2 text-xl bg-secondary text-white rounded-xl ${
-              scrolling ? "px-4 py-1 text-black  mt-3 " : ""
+            className={`block mt-1  md:mt-0 px-4 py-2 text-xl bg-secondary text-gray-200 rounded-xl ${
+              scrolling ? "px-4 py-1  mt-3 " : ""
             }`}
             onClick={closeMenu}
           >
