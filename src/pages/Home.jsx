@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div className="relative">
       <Header />
       <Navigation />
       <ScrollTo top={true} />
@@ -26,7 +26,7 @@ const Home = () => {
         ))}
       </Masonry>
       <ScrollTo top={false} />
-    </>
+    </div>
   );
 };
 
