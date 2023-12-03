@@ -168,7 +168,7 @@ const Card = (props) => {
   return (
     <article
       id={props.link}
-      className="flex flex-col max-w-[95vw] mx-auto  my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700 md:max-w-[45vw] rounded-xl"
+      className="mx-auto my-8 shadow-2xl shadow-blue-700 border-t-2 border-b-4 border-blue-700 rounded-xl"
     >
       <div className="flex flex-col justify-start p-4 rounded-xl">
         {renderPropertyTitle(props.title)}
