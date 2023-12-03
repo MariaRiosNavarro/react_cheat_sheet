@@ -25,15 +25,15 @@ I use [npm install react-masonry-css]("https://www.npmjs.com/package/react-mason
 # Mobile light
 
 <div>
-<img src="./public/img/l-readme1m.png" alt="" width="300px"/>
-<img src="./public/img/l-readme2m.png" alt="" width="300px"/>
-<img src="./public/img/l-readme3m.png" alt="" width="300px"/>
+<img src="./public/img/l-readme1m.png" alt="" width="250px"/>
+<img src="./public/img/l-readme2m.png" alt="" width="250px"/>
+<img src="./public/img/l-readme3m.png" alt="" width="250px"/>
 </div>
 
 # Mobile dark
 
 <div>
-<img src="./public/img/d-readme1m.png" alt="" width="300px"/>
-<img src="./public/img/d-readme2m.png" alt="" width="300px"/>
-<img src="./public/img/d-readme3m.png" alt="" width="300px"/>
+<img src="./public/img/d-readme1m.png" alt="" width="250px"/>
+<img src="./public/img/d-readme2m.png" alt="" width="250px"/>
+<img src="./public/img/d-readme3m.png" alt="" width="250px"/>
 </div>
