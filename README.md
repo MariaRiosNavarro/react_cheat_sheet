@@ -17,9 +17,9 @@ I use [npm install react-masonry-css]("https://www.npmjs.com/package/react-mason
 # Desktop light
 
 <div>
-<img src="./public/img/l-readme1.png" alt="" width="500px"/>
-<img src="./public/img/l-readme2.png" alt="" width="500px"/>
-<img src="./public/img/l-readme3.png" alt="" width="500px"/>
+<img src="./public/img/l-readme1.png" alt="" width="600px"/>
+<img src="./public/img/l-readme2.png" alt="" width="600px"/>
+<img src="./public/img/l-readme3.png" alt="" width="600px"/>
 </div>
 
 # Mobile dark
@@ -33,7 +33,7 @@ I use [npm install react-masonry-css]("https://www.npmjs.com/package/react-mason
 # Desktop dark
 
 <div>
-<img src="./public/img/d-readme1.png" alt="" width="500px"/>
-<img src="./public/img/d-readme2.png" alt="" width="500px"/>
-<img src="./public/img/d-readme3.png" alt="" width="500px"/>
+<img src="./public/img/d-readme1.png" alt="" width="600px"/>
+<img src="./public/img/d-readme2.png" alt="" width="600px"/>
+<img src="./public/img/d-readme3.png" alt="" width="600px"/>
 </div>
